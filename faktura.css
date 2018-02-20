@@ -10,6 +10,10 @@ td, th {
     padding: 8px;
 }
 
+body {
+    background-color: #c0aeae;
+}
+
 tr:nth-child(even) {
     background-color: #c0aeae;
 }
