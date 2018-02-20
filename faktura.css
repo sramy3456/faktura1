@@ -2,12 +2,14 @@ table {
     font-family: arial, sans-serif;
     border-collapse: collapse;
     width: 100%;
+    border-color: rgb(99, 6, 6)
 }
 
 td, th {
-    border: 1px solid #e0cfcf;
+    border: 4px solid #521c1c;
     text-align: left;
     padding: 8px;
+    background: #e7c3bc; 
 }
 
 body {
@@ -15,5 +17,18 @@ body {
 }
 
 tr:nth-child(even) {
-    background-color: #c0aeae;
+    background-color: #eceaea;
+}
+
+.main-content .specifikation> table{ 
+    width: 250px;
+    margin: auto;
+    border: 3px solid rgb(146, 48, 48);
+    padding: 10px;
+}
+footer{
+    text-align: center;
+    padding: 5px;
+    background-color:#e7c3bc; 
+
 }
